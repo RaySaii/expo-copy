@@ -61,7 +61,7 @@ export default function Banner() {
     }
     timer.current = setInterval(() => {
       paginate(1)
-    }, 10000)
+    }, 3000)
   }
 
   return (
